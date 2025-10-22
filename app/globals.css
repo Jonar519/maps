@@ -23,4 +23,49 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Animaciones personalizadas para los círculos */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) scale(1);
+  }
+  50% {
+    transform: translateY(-20px) scale(1.05);
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 4s ease-in-out infinite;
+}
+
+/* Estilos para Leaflet */
+.leaflet-container {
+  font-family: inherit !important;
+}
+
+.custom-marker {
+  background: transparent !important;
+  border: none !important;
 }
