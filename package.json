@@ -9,10 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "14.2.4",
+    "next": "16.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "lucide-react": "^0.263.1",
+    "lucide-react": "latest",
     "leaflet": "^1.9.4"
   },
   "devDependencies": {
@@ -25,6 +25,6 @@
     "autoprefixer": "^10.4.14",
     "postcss": "^8.4.24",
     "eslint": "^8.0.0",
-    "eslint-config-next": "14.2.4"
+    "eslint-config-next": "16.0.0"
   }
 }
