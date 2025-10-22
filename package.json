@@ -10,9 +10,9 @@
   },
   "dependencies": {
     "next": "16.0.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "lucide-react": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.263.1",
     "leaflet": "^1.9.4"
   },
   "devDependencies": {
@@ -26,5 +26,6 @@
     "postcss": "^8.4.24",
     "eslint": "^8.0.0",
     "eslint-config-next": "16.0.0"
-  }
+  },
+  "packageManager": "npm@10.2.4"
 }
